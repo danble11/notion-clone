@@ -3,7 +3,6 @@ import { TitleInput } from '@/components/TitleInput';
 import { UseCurrentUsetStore } from '@/modules/auth/corrent-user.state';
 import { noteRepository } from '@/modules/notes/note.repository';
 import { useNoteStore } from '@/modules/notes/note.state';
-import { Content } from '@radix-ui/react-dropdown-menu';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
